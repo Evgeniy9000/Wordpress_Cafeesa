@@ -17,7 +17,7 @@
           <?php the_field ('main_subtitle'); ?>
           </p>
           <div>
-            <a href="" class="slider-link">
+            <a href="<?php echo home_url('#booking-form'); ?>" class="slider-link">
               Book A Table
             </a>
           </div>
@@ -29,7 +29,7 @@
 
   <!-- special section -->
 
-  <section class="spcl_section layout_padding">
+  <section class="spcl_section layout_padding" id="booking-form">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -96,8 +96,8 @@
             <p>
             <?php echo get_the_excerpt(31); ?>
             </p>
-            <a href="">
-              Read More
+            <a href="<?php echo home_url('about'); ?>">Read More</a>
+              
             </a>
           </div>
         </div>

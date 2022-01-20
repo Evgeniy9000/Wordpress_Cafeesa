@@ -7,7 +7,7 @@
               Reach at..
             </h4>
             <div class="contact_link_box">
-            <a href="<?php the_field('Tel'); ?>">
+            <a href="<?php the_field('Tel', 2); ?>">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span>
                   Location
@@ -22,7 +22,7 @@
               <a href="mailto:<?php the_field('email'); ?>">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  <?php the_field('email'); ?>
+                  <?php the_field('email', 2); ?>
                 </span>
               </a>
             </div>
@@ -57,7 +57,7 @@
         <div class="col-md-4 footer-col">
           <div class="map_container">
             <div class="map">
-            <?php the_field('Map'); ?>
+            <?php the_field('Map', 2); ?>
             </div>
           </div>
         </div>

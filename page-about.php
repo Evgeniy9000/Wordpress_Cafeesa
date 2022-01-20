@@ -1,5 +1,5 @@
 
-<?php get_header(); ?>
+<?php get_header('page'); ?>
 
   <section class="about_section  layout_padding">
     <div class="container">

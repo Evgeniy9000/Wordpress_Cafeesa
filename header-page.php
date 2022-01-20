@@ -41,10 +41,10 @@
             </button>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="<?php echo home_url(); ?>">Home</a>
-                <a href="about.html">About</a>
-                <a href="book.html">Book Table</a>
-                <a href="testimonial.html">Testimonial</a>
+              <a href="<?php echo home_url(); ?>">Home</a>
+                <a href="<?php echo home_url('about'); ?>">About</a>
+                <a href="<?php echo home_url('book'); ?>">Book Table</a>
+                <a href="<?php echo home_url('testimonial'); ?>">Testimonial</a>
               </div>
             </div>
           </div>
