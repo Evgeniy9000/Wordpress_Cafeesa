@@ -1,0 +1,110 @@
+/**
+ * Theme Name:  cafeesa_themes
+ * Description: Кофейня
+ * Version:     1.0
+ */
+
+.wpc-form-control,
+.attr-form-control {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
+
+.wpc_reservation_form {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin-top: 35px !important;
+}
+
+.wpc-reservation-form .wpc-reservation-field .wpc-form-control {
+  border: none !important;
+  outline: none !important;
+  color: #fefefe !important;
+  height: 45px !important;
+  width: 100% !important;
+  margin: 15px 0 !important;
+  padding-left: 15px !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid #fff !important;
+  font-size: inherit !important;
+}
+
+.wpc-reservation-form span.dashicons.dashicons-clock,
+.wpc-reservation-form i.reserv-date-icon {
+  color: #fefefe !important;
+  top: 40%;
+}
+
+.wpc-reservation-form .wpc-reservation-field .wpc-form-control,
+#wpc-message {
+  border: none !important;
+  outline: none !important;
+  color: #fefefe !important;
+  height: 45px !important;
+  width: 100% !important;
+  margin: 15px 0 !important;
+  padding-left: 15px !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid #fff !important;
+  font-size: inherit !important;
+}
+
+.wpc-reservation-form .wpc-reservation-field input::placeholder,
+#wpc-message::placeholder {
+  color: #fafafa !important;
+  text-transform: uppercase !important;
+}
+
+.wpc-reservation-form .wpc-reservation-field input:focus,
+#wpc-message::focus {
+  border-bottom: 1px solid #96bb7c !important;
+}
+
+.wpc-btn {
+  display: inline-block !important;
+  padding: 10px 60px !important;
+  background-color: #96bb7c !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+  border: 1px solid #96bb7c !important;
+  -webkit-transition: all 0.2s !important;
+  transition: all 0.2s !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+  line-height: inherit !important;
+  max-width: 300px;
+  margin: 0 auto;
+  -moz-transition: all 0.2s !important;
+  -ms-transition: all 0.2s !important;
+  -o-transition: all 0.2s !important;
+}
+
+.wpc-btn:hover {
+  background-color: transparent !important;
+  color: #96bb7c !important;
+}
+
+.wpc_reservation_user_info {
+  background-color: transparent !important;
+  display: block !important;
+}
+
+.confirm_booking_btn,
+.cancell_form_submit {
+  margin-right: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.wpc_log_message {
+  margin-bottom: 20px !important;
+}
