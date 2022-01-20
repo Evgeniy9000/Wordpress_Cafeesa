@@ -6,22 +6,18 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/about-img.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/about-img.jpg" alt="">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About Us
+                <?php the_title(); ?>
               </h2>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.
-            </p>
-            <a href="">
-              Read More
-            </a>
+           <?php the_content(); ?> 
+            
           </div>
         </div>
       </div>
