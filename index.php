@@ -123,7 +123,7 @@
         <div class="row">
           <div class="col-md-7 mx-auto">
 
-<?php echo do_shortcode("[wpc_reservation_form form_style ='2']"); ?>
+        <?php echo do_shortcode("[wpc_reservation_form form_style ='2']"); ?>
 
             
           </div>
